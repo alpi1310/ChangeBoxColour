@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    color: rgb(232, 27, 27);
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    width: 25vh;
+    height: 25vh;
+    background-color: rgb(138, 126, 225);
+    margin: 3rem;
+    cursor: pointer;
+}
+
+.red {
+    background-color: rgb(144, 223, 187);
+}
